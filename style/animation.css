@@ -1,0 +1,31 @@
+.main:hover .window{
+    height:100%;
+    
+}
+.window{
+    background-color: black;
+    opacity: 50%;
+    transition: 2s all;
+    top:100%;
+}
+
+.input:focus label{
+    transform: translateY(-20px);
+   
+}
+
+.shadow{
+    position:relative;
+}
+
+.shadow::after{
+    content:'';
+    position:absolute;
+    top:100%;
+    left:100%;
+    width:100px;
+    height:100px;
+    background-color: blue;
+    
+}
+
