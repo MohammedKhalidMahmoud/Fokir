@@ -170,10 +170,26 @@ body{
 } */
 
 
-.img1 img{
+/* .img1 img{
     transform: translate(7%,10%);
-}
+} */
 
 .left img{
     min-width: 80px;
+}
+
+.w-full-2,.w-full-3,.w-full-4{
+    width:100%;
+}
+
+.transparent-layer{
+    background-color:rgba(0,0,0,0.5);
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.transparent-layer:hover{
+    opacity:1;
 }

@@ -1,4 +1,4 @@
-
+/* 
 @media (min-width:600px)  {
     .w-full{
         width:50%;
@@ -20,7 +20,7 @@
         flex-direction: row; 
     }
     .header nav ul{
-        /* background-color: black; */
+        
         flex-direction:row;
         column-gap: 20px;
         margin-top:40px;
@@ -61,4 +61,21 @@
         width:33.333%;
     }    
 }
+ */
 
+
+ @media(min-width:650px){
+    .w-full-2,.w-full-3,.w-full-4{
+        width:calc(100%/2);
+    }
+ }
+ @media(min-width:950px){
+    .w-full-3,.w-full-4{
+        width:calc(100%/3);
+    }
+ }
+ @media(min-width:1150px){
+    .w-full-4{
+        width:calc(100%/4);
+    }
+ }

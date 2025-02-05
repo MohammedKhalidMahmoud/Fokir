@@ -28,7 +28,7 @@
         <h3 class="font-40 color-main m-l-30">Fokir</h3>
         <nav class="m-r-30 m-t-10">   
             <ul class="sp list-dots-remove p-none hello flex flex-direction-column row-gap-5 justify-content-center">
-                <li class="tab font-white font-20 text-center"><a class="" href="#home"></a>Home</li>
+                <li class="tab font-white font-20 text-center font-main"><a class="" href="#home"></a>Home</li>
                 <li class="tab font-white font-20 text-center"><a class="" href="#about"></a>About</li>
                 <li class="tab font-white font-20 text-center"><a class="" href="#services"></a>Services</li>
                 <li class="tab font-white font-20 text-center"><a class="" href="#portfolio"></a>Portfolio</li>
@@ -43,7 +43,7 @@
             <div class="content-1 absolute top-50 left-50 tra z-2 font-main text-center">
                 <h3 class="font-30">Hello i'm</h2>
                 <h2 class="font-40">ALEX SMITH</h2>
-                <h3 class="font-35">Professional Web Designer</h3>
+                <h3 class="font-35">Professional Web <span></span></h3>
             </div>
             <div class="layer bg-c-black opacity-6 absolute top-0 bottom-0 left-0 right-0">
             </div>
@@ -58,15 +58,17 @@
     </section>
     
     <!---->
-    <section class="Hello w-90-p center flex flex-wrap flex-direction-column justify-content-space-evenly margin-auto" id="about">
-        
-        <div class="container  w-90-p relative b-solid b-c-main b-w-5">
-            <div class="img1 b-w-5 b-solid relative bg-c-black"> 
-                <img src="./images/about.jpg" alt="" class="w-90-p top-5 left-10">
+    <section class="Hello w-90-p center flex flex-wrap justify-content-space-evenly margin-auto" id="about">
+
+            <div class="wrapper p-2-p p-r-5-p w-full-2">
+                <div class="w-full img-personal b-w-5 b-solid relative b-solid b-c-main b-w-5  "> 
+                    <div class="layer absolute inset-0"  ></div>
+                    <img src="./images/about.jpg" alt="" class="w-full translate-5-p">
+                </div>
             </div>
-        </div>
+            
         
-        <div class="paragraph w-90-p ">
+        <div class="paragraph w-full-2 p-3-p ">
             <h3 class="prefix font-30"> Hello</h3>
             <p class="font-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -90,12 +92,17 @@
 
             </ul>
            
-            <button class="m-r-15 font-white font-18 p-l-15 p-r-15 p-t-10 p-b-10 bg-c-main b-r-4 border-none ">Download CV 
+                <a href="//drive.google.com/uc?export=download&id=1pY6E-dzJOfs_naC554EA7B7hZUTLOHty"
+                class="m-r-15 font-white font-18 p-l-15 p-r-15 p-t-10 p-b-10 bg-c-main b-r-4 border-none decoration-none">
+                Download CV
                 <i class="fa fa-download"></i>
-            </button>
-            <button class="font-white font-18 p-l-15 p-r-15 p-t-10 p-b-10 bg-c-main b-r-4 border-none ">Hire Me 
+                </a>
+                <a href="mailto:mohammedkhalidmahmoud@gmail.com"
+                class="m-r-15 font-white font-18 p-l-15 p-r-15 p-t-10 p-b-10 bg-c-main b-r-4 border-none decoration-none">
+                Hire Me
                 <i class="fa fa-paper-plane"></i>
-            </button>
+                </a>
+        
             
         </div>
         
@@ -106,27 +113,27 @@
         <br>
         <h3 class="font-40 underlined">Our Services</h3><br><br>
         <div class="cards flex w-90-p  flex-wrap margin-auto ">
-            <div class="card w-full text-center ">
+            <div class="card w-full-4 text-center ">
                 <i class="icofont icofont-calculations font-40 color-main"></i>
                 <h3 class=""> UI/UX DESIGN</h3> 
                 <p class="font-17">Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p> 
             </div>
-            <div class="card w-full text-center p-10 ">
+            <div class="card w-full-4 text-center p-10 ">
                 <i class="icofont icofont-code font-40 color-main"></i>
                 <h3>APP DEVELOPMENT</h3>
                 <p class="font-17">Lorem ipsum dolor sit amet,
                    consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.
                 </p>
             </div>
-            <div class="card w-full text-center p-10 ">
+            <div class="card w-full-4 text-center p-10 ">
                 <i class="icofont icofont-dashboard-web font-40 color-main"></i>
                 <h3 class="text-center ">PRODUCT DESIGN</h3>
                 <p class="font-17">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Ratione adipisci mollitia quis necstatibus.
                 </p>
             </div>
-            <div class="card w-full text-center p-10 ">
+            <div class="card w-full-4 text-center p-10 ">
                 <i class="icofont icofont-ui-settings font-40 color-main"></i>
                 <h3>UI/UX DESIGN</h3>
                 <p class="font-17">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -150,12 +157,17 @@
         <br><br>
         <div class="imgs-div">
             <div class="flex flex-wrap w-90-p margin-auto">
-                <img class="w-full p-10" src="./images/portfolio/1.jpg" alt="">
-                <img class="w-full p-10" src="./images/portfolio/2.jpg" alt="hand-held-watch">
-                <img class="w-full p-10" src="./images/portfolio/3.jpg" alt="">
-                <img class="w-full p-10" src="./images/portfolio/4.jpg" alt="">
-                <img class="w-full p-10" src="./images/portfolio/5.jpg" alt="">
-                <img class="w-full p-10" src="./images/portfolio/6.jpg" alt="">
+                <!-- <div class="group relative w-full-3 p-5-p ">
+                    <img class="absolute inset-0 w-full" src="./images/portfolio/1.jpg" alt="">
+                    <div class="transparent-layer absolute inset-0 opacity-0 transition-1"></div>
+                </div> -->
+                
+                <img class="w-full-3 p-10" src="./images/portfolio/1.jpg" alt="hand-held-watch">
+                <img class="w-full-3 p-10" src="./images/portfolio/2.jpg" alt="hand-held-watch">
+                <img class="w-full-3 p-10" src="./images/portfolio/3.jpg" alt="">
+                <img class="w-full-3 p-10" src="./images/portfolio/4.jpg" alt="">
+                <img class="w-full-3 p-10" src="./images/portfolio/5.jpg" alt="">
+                <img class="w-full-3 p-10" src="./images/portfolio/6.jpg" alt="">
             </div>
             <br>
     </section>
@@ -163,23 +175,23 @@
     <section class="numbers bg-c-lightgray gap-10" id="testimonial">
         <br><br><br>
         <div class="container flex flex-wrap">
-            <div class="w-full text-center">
+            <div class="w-full-4 text-center p-3-p">
                 <i style="font-size: xx-large;" class="fa fa-users font-main font-40"></i><br><br>
                 <h3 class="inline font-22">200</h3><br>
                 <h5 class="inline font-20 m-0 p-0">Team members</h5>
             </div>
             
-            <div class="w-full quarter text-center ">
+            <div class="w-full-4 quarter text-center p-3-p">
                 <i style="font-size: xx-large;" class="fa fa-clone font-main"></i><br><br>
                 <h3 class="inline font-22">345</h3><br>
                 <h5 class="inline font-20">Complete Projects</h5>
             </div>
-            <div class="w-full text-center">
+            <div class="w-full-4 text-center p-3-p">
                 <i style="font-size: xx-large;" class="fa fa-cloud-download font-main"></i><br><br>
                 <h3 class="inline font-22">1800</h3><br>
                 <h5 class="inline font-20">Files Downloaded</h5>
             </div>
-            <div class="w-full text-center">
+            <div class="w-full-4 text-center p-3-p">
                 <i style="font-size: xx-large;" class="fa fa-coffee font-main"></i><br><br>
                 <h3 class="inline font-22">1200</h3><br>
                 <h5 class="inline font-20">Lines Of Code</h5>
@@ -235,7 +247,7 @@
         <br><br><br>
         <div class="cards flex flex-wrap w-90-p margin-auto">
 
-        <div class="card bg-c-white w-full p-20 "> 
+        <div class="card bg-c-white w-full-3 p-20 "> 
             <img class="w-full" src="./images/blog/12.jpg" alt="">
             <div class="content m-15">
                 <p>23 November, 2015</p>
@@ -248,11 +260,11 @@
             </div>  
         </div>
 
-        <div class="card bg-c-white w-full p-20">
+        <div class="card bg-c-white w-full-3 p-20">
             <iframe class="w-full"  src="https://www.youtube.com/embed/uVju5--RqtY?si=wzI0yK1hvpvljwZu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="wrapper m-15">
-                <p>20 April, 2018</p>
+                <p>20 April, 2018</p> 
                 <a class="font-link font-22"href="">Development Blog Post</a>
                 <p class="font-18">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Consequuntur ea, quis magnam deserunt eius incidunt repellat molestiae.</p>
@@ -260,7 +272,7 @@
             </div>  
         </div>
 
-        <div class="card bg-c-white w-full p-20"> 
+        <div class="card bg-c-white w-full-3 p-20"> 
             <img class="w-full" src="./images/blog/32.jpg" alt="">
             <div class="wrapper m-15">
                 <p>17 May, 2017</p>
