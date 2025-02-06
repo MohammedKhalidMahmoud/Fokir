@@ -177,6 +177,9 @@
 .bg-c-gray{
     background-color: gray;
 }
+.bg-c-lightgray{
+    background-color: lightgray;
+}
 
 .list-dots-remove{
     list-style-type: none;   

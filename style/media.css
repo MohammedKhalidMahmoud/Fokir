@@ -66,12 +66,12 @@
 
  @media(min-width:650px){
     .w-full-2,.w-full-3,.w-full-4{
-        width:calc(100%/2);
+        width:calc(100%/2 - 20px);
     }
  }
  @media(min-width:950px){
     .w-full-3,.w-full-4{
-        width:calc(100%/3);
+        width:calc(100%/3 - 20px);
     }
  }
  @media(min-width:1150px){
